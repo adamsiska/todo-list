@@ -1,0 +1,74 @@
+.filter-controls {
+  padding: .5rem 1rem;
+  border-radius: 8px;
+  margin-bottom: .5rem;
+}
+
+.filter-buttons {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.filter-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--color-border-gray);
+  background-color: var(--color-white);
+  color: #495057;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: .8rem;
+  transition: all 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: #e9ecef;
+  border-color: var(--color-border-hover);
+}
+
+.filter-button.active {
+  background-color: var(--active-filter-color);
+  color: var(--color-white);
+  border-color: var(--active-filter-color);
+}
+
+.bulk-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.bulk-button {
+  padding: .5rem;
+  width: 45%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background-color 0.3s ease;
+}
+
+.bulk-button.complete-all {
+  background-color: #28a745;
+  color: var(--color-white);
+}
+
+.bulk-button.complete-all:hover {
+  background-color: #218838;
+}
+
+.bulk-button.delete-completed {
+  background-color: #dc3545;
+  color: var(--color-white);
+}
+
+.bulk-button.delete-completed:hover {
+  background-color: #c82333;
+}
+
+.todo-stats {
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}

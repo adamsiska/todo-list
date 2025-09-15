@@ -1,0 +1,23 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  --active-filter-color: #007bff;
+  --color-white: white;
+  --color-light-gray: #f8f9fa;
+  --color-border-gray: #dee2e6;
+  --color-primary-blue: #007bff;
+  --color-text-muted: #6c757d;
+  --color-border-hover: #adb5bd;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  line-height: 1.1;
+}
+
+button {
+  font-weight: 500;
+}
